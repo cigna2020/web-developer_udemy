@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.promo {
+    height: 800px;
+    padding: 40px 0 60px 0;
+
+    background: url('/project_1/src/img/main-bcg.jpg') center center/cover no-repeat;
+}
+
+
+/* Logo
+=============================== */
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo_text {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+/* Title
+=============================== */
+h1 {
+    margin-top: 53px;
+}
+
+.title {
+    font-family: "Roboto - Black";
+    color: #f9bf3b;
+
+    font-size: 41px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2.title {
+    margin-top: 30px;
+}
+
+.simple .title_big {
+    font-family: "Roboto - Black";
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.promo .promo_text {
+    font-family: "Roboto Light";
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+
+    padding: 0 13px;
+    margin-top: 23px;
+}
+
+.promo .promo_text span {
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+    color: #f9bf3b;
+}
+
+.promo_btn {
+    display: block;
+    margin: 73px auto;
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: solid 4px rgba(0, 0, 0, 0.23);
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+
+    font-family: "Roboto Condensed";
+    font-size: 21px;
+    font-weight: 400;
+    font-stretch: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+
+    cursor: pointer;
+
+}
+
+.more {
+    margin-top: 73px;
+}
+
+.more .more_text {
+    font-family: "Roboto - Thin";
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.more .more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
